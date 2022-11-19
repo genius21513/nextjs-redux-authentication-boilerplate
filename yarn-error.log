@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Univan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files (x86)\PuTTY\;C:\Users\Univan\AppData\Local\Programs\Python\Python310;C:\Users\Univan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\composer;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files (x86)\PuTTY\;C:\Users\Univan\AppData\Local\Programs\Python\Python310;C:\Users\Univan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\Univan\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;C:\Users\Univan\AppData\Local\GitHubDesktop\bin;C:\Users\Univan\AppData\Local\Programs\Python\Python310;C:\Users\Univan\AppData\Roaming\npm;C:\Users\Univan\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Univan\AppData\Local\Android\Sdk\platform-tools;C:\Users\Univan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Univan\.dotnet\tools;C:\Users\Univan\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.22.12
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/align-text/-/align-text-0.1.4.tgz: Request failed "502 Bad Gateway"
+      at ResponseError.ExtendableBuiltin (C:\Users\Univan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\Univan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\Univan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66215:16)
+      at Request.emit (events.js:314:20)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\Univan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141767:10)
+      at ClientRequest.emit (events.js:314:20)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:601:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:122:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (_http_client.js:474:22)
+
+npm manifest: 
+  {
+    "name": "nextjs-redux-authentication-boilerplate",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "node server.js",
+      "build": "next build",
+      "start": "NODE_ENV=production node server.js"
+    },
+    "dependencies": {
+      "@zeit/next-css": "^0.2.0",
+      "express": "^4.16.3",
+      "isomorphic-unfetch": "^2.0.0",
+      "next": "6.0.3",
+      "react": "16.4.1",
+      "react-dom": "16.4.1",
+      "react-redux": "^5.0.1",
+      "redux": "^3.6.0",
+      "redux-devtools-extension": "^2.13.2",
+      "redux-persist": "^5.10.0",
+      "redux-thunk": "^2.1.0"
+    },
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
